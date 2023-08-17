@@ -36,7 +36,13 @@
                         <li><a href="#Portflio">Portflio.</a></li>
                         <li><a href="#Blog">Blog.</a></li>
                         <li><a href="#Contact">Contact Us.</a></li>
-                        <li><a href="EN">EN</a></li>
+                        <li>
+                            <a href="#" class="EN">EN</a>
+                            <ul id="ul" style="display: none;">
+                                <li><a href="#" class="active">EN</a></li>
+                                <li><a href="#">AR</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <button>Contact Us</button>
                 </nav>  
@@ -89,26 +95,33 @@
     </div>
     <!-- End About -->
     <!-- start portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="Portflio">
         <div class="container">
             <h2>See some of our <br> Creative work.</h2>
-            <div class="images">              
-                <img src="images/1.png" alt="portfolio-1">
-                <img src="images/2.png" alt="portfolio-2">
-                <img src="images/3.png" alt="portfolio-3">
-                <img src="images/4.png" alt="portfolio-4">
-                <img src="images/5.png" alt="portfolio-5">
-                <img src="images/6.png" alt="portfolio-6">
-                <!-- <img src="images/1.png" alt="">                    js
-                <img src="images/1.png" alt="">
-                <img src="images/1.png" alt=""> -->
+            <div class="images">
+                <div><img src="images/1.png" alt="portfolio-1"></div>
+                <div><img src="images/2.png" alt="portfolio-2"></div>
+                <div><img src="images/3.png" alt="portfolio-3"></div>
+                <div><img src="images/4.png" alt="portfolio-4"></div>
+                <div><img src="images/5.png" alt="portfolio-5"></div>
+                <div> <img src="images/6.png" alt="portfolio-6"></div>
+
+                
+                
+                
+                <!-- js -->
+                <div><img src="images/4.jpeg" alt=""></div>
+                <div><img src="images/5.jpg" alt=""></div>
+                <div><img src="images/6.jpg" alt=""></div>
+                
+                
             </div>
             <button>Show More.</button>
         </div>
     </div>
     <!-- end portfolio -->
     <!-- start blog -->
-    <div class="blog">
+    <div class="blog" id="Blog">
         <div class="container">
             <div class="component">
                 <h5>BLOG STORIES</h5>
@@ -152,7 +165,7 @@
     </div>
     <!-- end blog -->
     <!-- start contact -->
-    <div class="contact">
+    <div class="contact" id="Contact">
         <div class="container">
             <div class="component">
                 <h5>CONTACT US</h5>
@@ -187,7 +200,7 @@
             </ul>
         </div> 
     </footer>
-    <!-- end footer -->
-
+    <!-- end footer --> 
+    <Script src="js/main.js"></Script>
 </body>
 </html>
